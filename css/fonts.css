@@ -1,0 +1,21 @@
+  
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/Raleway-Regular.woff') format('woff'),
+        url('../fonts/Raleway-Regular.ttf') format('truetype'),
+        url('../fonts/Raleway-Regular.svg#Raleway-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-Mdm.woff2') format('woff2'),
+        url('../fonts/Arial-Mdm.woff') format('woff'),
+        url('../fonts/Arial-Mdm.ttf') format('truetype'),
+        url('../fonts/Arial-Mdm.svg#Arial-Mdm') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,110 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media only screen and (max-width: 1268px) {
+    .content-container{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .text{
+        font-size:15px;
+        font-family: 'Raleway';
+        max-width: 260px;
+    }
+    .main-title{
+        margin-top: 13px;
+        margin-bottom: 30px;
+        font-size: 15px;
+        font-family: 'Raleway';
+        font-weight: bold;
+    }
+    .span{
+        font-size: 13px;
+        font-family: 'Raleway';
+    }
+    .left-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .nav{
+        display: none;
+    }
+    .fa-bars{
+        display: inline-block;
+        margin-right:60px;
+    }
+    .header-container{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack:distribute;
+            justify-content:space-between;
+    }
+    .par{
+        font-size: 15px;
+        }
+        h1{
+        font-size: 35px;
+        }
+}
+
+@media only screen and (max-width:868px) {
+    .title-container{
+        width: 33%;
+        margin: auto;
+    }
+    .text-right{
+        font-size: 13px;
+        }
+    .h3{
+        font-size: 18px;
+        }
+    .logo{
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width:600px) { 
+    .title-container{
+        width: 51%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .text-right{
+        font-size: 10px;
+        }
+    .h3{
+        font-size: 15px;
+        }
+        .title-container:nth-child(4){
+            margin-top: 10px;
+            margin-bottom:10px;
+        }
+        .title-container:nth-child(5){
+            margin-top: 10px;
+            margin-bottom:10px;
+        }
+        .title-container:nth-child(3){
+            margin-left: 0px;
+            width: 51%;
+            margin: 0 auto;
+         }
+         .title-container:nth-child(6){
+            margin-top: 10px;
+            margin-bottom:50px;
+            margin-left: 0px;
+            width: 51%;
+            margin: 0 auto;
+         }
+}
