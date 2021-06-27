@@ -76,7 +76,8 @@
 
 @media only screen and (max-width:600px) { 
     .title-container{
-        width: 51%;
+        width: 100%;
+        max-width:270px;
         margin: 0 auto;
         margin-top: 10px;
         margin-bottom: 10px;
